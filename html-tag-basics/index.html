@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <!-- this is the structure of a comment block in html files everything in this structure is NOT considered part of any connect of your web page
+<!-- this is the structure of a comment block in html files everything in this structure is NOT considered part of any connect of your web page
     
     Most tags in html are done in pairs; opening and closing tags. The opening tag indicates the tag instruction to the browse. The closing tag terminates the tag block. The closing tag has the same name as the opening tag with that addiction of a slash before the tag name.
 
-    On the html tag has a parameter indicating the lagnuage of the text--> 
+    On the html tag has a parameter indicating the lagnuage of the text-->
 
 <head>
     <!-- this is a place where you can code supports for the browser to use in interpreting the web file. The items within this section are NOT content.-->
     <title>Page Title</title>
-    <meta name="author" context="Ethan Diep">
+    <meta name="author" content="Ethan Diep">
 
     <!-- universal type set which covers almost all the characters and symbols in the world
     
-    https://www.w3schools.com/tags/tags-meta.asp--> 
+    https://www.w3schools.com/tags/tags-meta.asp-->
 
     <meta charset="utf-8">
 </head>
@@ -26,12 +26,14 @@
     all of these tags have some built in formatting-->
     <h1>Basic HTML tags</h1>
     <h3>Paragraph tag</h3>
-<!-- this is the coding block for your content on your web page-->
+    <!-- this is the coding block for your content on your web page-->
 
-    <p>The paragraph tag is a block tag. A block tag begins a new line in your displayed web page on the browser. The browser does NOT display your contenet int he physical style of how you have entered your code in your html file.
+    <p>The paragraph tag is a block tag. A block tag begins a new line in your displayed web page on the browser. The
+        browser does NOT display your contenet int he physical style of how you have entered your code in your html
+        file.
     </p>
 
-    <p>This is my second paragraph on the displayed browser page. It will start a new line. 
+    <p>This is my second paragraph on the displayed browser page. It will start a new line.
     </p>
     <!-- If you wish to use a component of a reversed tag (or the whole tag)
         you would be in trouble using just the tag.
@@ -58,9 +60,24 @@
         Parameters href points to the desired location, target indicates the browser page display option,
         default is same display page, _blank will use a new window tab-->
 
-        <h3>Anchor Tag</h3>
-        <a href="https://nait.ca/" target="_blank">Go to NAIT</a>
-    
+    <h3>Anchor Tag</h3>
+    <a href="https://nait.ca/" target="_blank">Go to NAIT</a>
+
+    <!--another way to display an image is using the figure tag along with the figcaption tag 
+            the figure tag will indent your image while the figcaption tag 
+            will allow you to place a text line with your image.
+            The figcaption tag is optional-->
+
+    <figure>
+        <img src="img/photoshop.jpg" alt="photoshop symbol" title="This is a tool-tip">
+        <figcaption>This is a caption</figcaption>
+    </figure>
+
+    <!--using an image anchor for your page-->
+    <a href="http://ediep3.dmitstudent.ca/ireland/" target="_blank">
+        <img src="img/photoshop.jpg" alt="photoshop symbol" title="Go to my lab">
+    </a>
+
 </body>
 
 </html>
