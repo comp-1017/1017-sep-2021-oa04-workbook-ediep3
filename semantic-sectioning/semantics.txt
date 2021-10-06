@@ -1,0 +1,44 @@
+Semantics:
+
+________________________________
+
+
+<body>
+
+    <header></header>
+        - h1 title tag
+        - logo
+        - motto line
+
+    <main></main>
+        - content of page
+        - divded using section, aside, and article semantic tags
+
+    <footer></footer>
+        - site map
+        - secondary navigation
+        - buisness information (address, contact)
+        - links to accounts (social media)
+        - FAQ
+
+</body>
+
+
+    <section></section>
+        - Thematic grouping of content (chapters, discussion blocks)
+        - Typically, each section can be divided by a heading of some sort (Introduction, ingredients)
+        - Will always contain a h2 - h6 heading tag
+        - DO NOT use in the <header> section
+        - Rule of thumb -> <main> section
+
+
+    <article></article>
+        - Self-contained composition in a web page
+        - Intended to be independently distributable 
+        - Such as forum posts, user comments, product cards, newspaper articles
+        - Can stand on its own (Rule of thumb)
+
+    <aside></aside>
+        - Represents content that is indirectly related to the web page contents (document), main content
+        - It can be removed without affecting the main content
+        - Frequently presented as a sidebar and sometimes as a call-out
