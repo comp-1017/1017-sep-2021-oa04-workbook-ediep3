@@ -1,0 +1,78 @@
+body {
+  background: rgba(0, 0, 0, 0.01);
+  font-family: Verdana, sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 100%;
+  line-height: 1.5;
+  background-color: grey;
+}
+
+/*CLEAR FIX SOLLUTION*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* set the main area so that element within the main area are side by side: display:flex
+any element with flex is referred to as the parent
+any element within the parent is placed side by side
+
+to handle the stacking in a flex parent so that elements
+within the parent automatically wrap to the next line IF there is insufficient room
+on the previous line, use flex-wrap: wrap*/
+
+main,
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 20 + 0 + 0 + w + 0 + 0 + 20 + 0 + 0 + w + 0 + 0 + 0 = 960 - 20
+
+40 + 2w = 940
+940 - 40 / 2 = 450
+*/
+
+.red-paint,
+.blue-paint {
+  width: 450px;
+  height: 200px;
+}
+
+.red-paint {
+  background-color: red;
+  margin: 20px 10px 20px 20px; /* margin: top right bottom left */
+}
+
+.blue-paint {
+  background-color: blue;
+  margin: 20px 20px 20px 10px;
+}
+
+.black-paint {
+  margin: 0px 20px 20px 20px;
+  width: 920px;
+  height: 50px;
+  background-color: black;
+}
