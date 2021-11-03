@@ -1,0 +1,86 @@
+/* Margins
+
+margin-top: npx; margin-right: npx; margin-bottom: npx; margin-left: npx; 
+
+short-cuts
+margin: 24px 10px 24px 10px;    (top, right, bottom, left)
+margin: 24px 10px;  (top/bottom right/left)
+margin: 24px;   (all sides the same)
+margin: 24px 24 px 10px (top bottom right/left)
+
+used to push elements apart from each other outside the border
+
+top and bottom margins between stacked elemtns reduce to the
+    higher of the 2 specified margins
+    element A has a bottom margin of 50px
+    element B has a top margin of 30px
+    one might expect the total distance between the elemtns to be 50 + 30 = 80
+    however due to margin-collapse the real distance will only be 50
+
+create a class for the margin section of the page
+*/
+
+.margin-section {
+  margin: 24px 12px 24px 6px;
+}
+
+/* Border
+
+seperates the margin from the padding
+default is 0px
+
+long hand
+border-style: none|solid|dotted|dashed|ridge|double|.....;
+border-width: npx|thin|medium|thick|;
+border-color: red|#rrggbb|rgb(r,g,b)|rgba(r,g,b,a)
+
+short hand
+border: width style color;
+
+border-width-bottom, that is each css rule can be applied seperately to the
+tp, right, botto or left
+
+create a border class of 5px dashed black:
+*/
+
+.border-section {
+  border: 5px dashed black;
+}
+
+/* Padding 
+
+the area between the border and the content
+like bubble wrap
+
+setup item are similar to margin expect use the word padding
+
+create a class with padding of 15px
+
+*/
+
+.padding-section {
+  padding: 15px;
+}
+
+/* content width
+physically specifying the number of pixels your content has to display in right to left. 
+Height can also be specified BUT you could end up having content not displayed because the 
+height automatically extends to display all content.
+
+create a class to limit the
+width to 300px;
+margin of 10px;
+solid blue border of 3px;
+padding of 30px top/bottom; 10px ;
+*/
+
+.padding-width {
+  width: 300px;
+  margin: 10px;
+  border: 3px solid blue;
+  padding: 30px 10px;
+}
+
+h2{
+    padding: 5px;
+}

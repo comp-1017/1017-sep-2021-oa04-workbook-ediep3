@@ -1,0 +1,73 @@
+body {
+  background-color: white;
+}
+
+.container {
+  /* 0 top/bottom auto right/left
+    auto equalizes the area to the 
+    right and left of the requested container area (horizational)*
+    */
+  margin: 0 auto;
+  /* how wide do you want your container
+  using 960 for course*/
+  width: 960px;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #747474;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+nav {
+  margin-top: 40px;
+  background-color: #ddd;
+}
+header {
+  margin-top: 24px;
+  background-color: #ddd;
+}
+
+main {
+  height: 800px;
+  background-color: #ddd;
+  margin-top: 24px;
+}
+
+main section {
+  height: 200px;
+  background-color: #ddd;
+  border: 24px;
+  margin: 30px;
+  /* 30 + 2 + 0 + w + 0 + 2 + 30 - 960
+  64 + w = 960
+  w - 960 - 64 = 896 */
+  width: 896px;
+}
+
+section {
+  outline: black solid 1px;
+}
+
+footer {
+  height: 150px;
+  background-color: red;
+  margin: 24px 0;
+}
+
+footer h2 {
+  color: lime;
+}
