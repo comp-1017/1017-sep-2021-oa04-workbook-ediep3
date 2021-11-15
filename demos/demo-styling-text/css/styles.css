@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+/* Typography */
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 45px;
+  color: rgb(145, 145, 145);
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 900px;
+  color: rgb(145, 145, 145);
+  padding-bottom: 20px;
+}
+
+main {
+  margin-top: 100px;
+  margin-bottom: 26px;
+}
+
+.section-img {
+  width: 80px;
+}
+
+.footer-img {
+  margin: 0px 0px 0px 25px;
+}
