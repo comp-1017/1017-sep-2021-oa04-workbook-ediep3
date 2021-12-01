@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+  background-image: url(../img/background.png);
+  font-family: "Alegreya", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+/* Layout */
+
+header {
+  height: 72px;
+  background-color: white;
+  border-bottom: 1px #959372 solid;
+}
+
+header img {
+  margin: 15px;
+}
+
+.banner {
+  background-image: url(../img/flower-background.png);
+  height: 480px;
+  margin-top: 52px;
+}
+
+/* Typography */
+
+.banner h1 {
+  color: #f9ea4f;
+  font-size: 36px;
+  font-family: "Alegreya", serif;
+  margin-left: 680px;
+  padding: 60px 0px 15px 0px;
+}
+
+.banner a {
+  color: #faf9f8;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  margin-left: 680px;
+  padding-top: 300px;
+}
+
+.banner a:hover {
+  color: #f9ea4f;
+}

@@ -1,0 +1,81 @@
+body {
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+.hidden {
+  display: none;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-position */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-image */
+
+.page-header {
+  background: url(../img/header-background.png);
+  background-repeat: no-repeat;
+}
+
+/* Typography 
+
+Calculation of points (pt) to pixels (px)
+
+12 pt = 16px
+
+pt * 4 / 3 = px*/
+
+.blog-font {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 0px 60px;
+}
+
+.blog-font h2 {
+  font-size: 64px;
+  color: #0b777b;
+  font-weight: bold;
+}
+
+.blog-font p {
+  font-size: 21px;
+  color: #7f8c8c;
+}
+
+.blog-font footer span {
+  color: #378184;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.blog-font footer strong {
+  color: #094244;
+  font-weight: bold;
+}
+
+/* Layout */
+
+.page-header {
+  margin-bottom: 88px;
+}
+
+.blog-font {
+  margin-bottom: 70px;
+}
+
+.blog-font footer{
+  margin-top: 26px;
+}
+
+.blog-font footer span {
+  margin: 0px 20px;
+}
+
+.blog-font footer img {
+  vertical-align: middle;
+}

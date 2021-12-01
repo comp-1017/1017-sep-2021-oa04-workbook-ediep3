@@ -1,0 +1,72 @@
+body {
+  background-color: white;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+/* Heading */
+
+header {
+  background-color: #028568;
+  height: 75px;
+  width: 960px;
+  display: flex;
+}
+
+header img {
+  padding: 15px;
+}
+
+nav ul {
+  display: flex;
+  padding: 30px;
+  margin: 0px 0px 0px 150px;
+}
+
+nav a {
+  margin-left: 30px;
+  font-family: "Raleway", serif;
+  font-weight: bold;
+  color: #f1f7f6;
+  text-decoration: none;
+}
+
+header a:hover,
+header a:focus {
+  border-bottom: 2px solid #abddd5;
+}
+
+/* Banner */
+.banner a {
+  display: inline-block;
+  padding: 9px 38px;
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+  color: #028568;
+  border-radius: 8px;
+}
+
+.banner a:hover {
+  padding: 9px 33px 9px 42px;
+  font-weight: bold;
+}
+
+/* font-family: 'Alegreya', serif;
+font-family: 'Raleway', sans-serif; */
